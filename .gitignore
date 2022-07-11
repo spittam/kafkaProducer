@@ -6,3 +6,8 @@
 */target/**
 *.jar
 *.class
+target/classes/application.properties
+target/classes/java.config
+target/classes/META-INF/MANIFEST.MF
+target/classes/META-INF/maven/com.plexus.main/kafkahttpdemo/pom.properties
+target/classes/META-INF/maven/com.plexus.main/kafkahttpdemo/pom.xml
