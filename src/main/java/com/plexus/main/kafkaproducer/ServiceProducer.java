@@ -36,6 +36,8 @@ public class ServiceProducer {
     }
 
     public String sendMessage(Order value) {
+    	
+    	System.out.println("sreeni ---> " +value);
         ListenableFuture<SendResult<String, Order>> future = orderKafkaTemplate.send(Topic, value);
         future.addCallback(new ListenableFutureCallback() {
             @Override

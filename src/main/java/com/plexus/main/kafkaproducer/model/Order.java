@@ -275,10 +275,10 @@ public class Order {
 
     @Override
     public String toString() {
-        return "Order{'" +
-                "OrderId='" + OrderId + '\'' +
-                ", CustomerID='" + CustomerID + '\'' +
-                ", OrderDate=" + OrderDate +
+        return "{" +
+                "\\"+"OrderId\\"+":" + OrderId + 
+                ","+"\\"+"CustomerID\\" + CustomerID +
+                ","+"\\"+"OrderDate\\"+":\\" + OrderDate +"\\"+
                 ", CurrencyCode='" + CurrencyCode + '\'' +
                 ", FirstName='" + FirstName + '\'' +
                 ", LastName='" + LastName + '\'' +
